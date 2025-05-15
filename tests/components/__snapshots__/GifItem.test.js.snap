@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItem /> Debe de hacer match con el Snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="AOE2"
+      src="https://age-of-empires.com/arbalest.jpg"
+    />
+    <p>
+      AOE2
+    </p>
+  </div>
+</div>
+`;

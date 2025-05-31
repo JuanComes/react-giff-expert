@@ -5,13 +5,14 @@ export const GifExpertApp = () => {
 
 const [categories, setCategories] = useState(["AOE2"])
 
-const onAddCategory = (newCategory) => {
+  const onAddCategory = (newCategory) => {
 
-  if( categories.includes(newCategory) ) return;
+    // Testeo 1
+    if( categories.includes(newCategory) ) return;
 
-
-  setCategories([ newCategory, ...categories])
-}
+    // Testeo 2 
+    setCategories([ newCategory, ...categories])
+  }
 
   return (
     <>  
